@@ -259,4 +259,38 @@ header{
     .banner__socials a{
         margin-right: 45px;
     }
+    .banner__img{
+        width:40% ;
+    }
+}
+
+
+/* things */
+#things{
+    position: relative;
+    overflow-x: hidden;
+    margin-top: 15em;
+}
+#things h2{
+    text-align: center;
+    color: var(--gray);
+    margin-bottom: 3em;
+}
+.thing__item{
+    margin: 3em 0;
+}
+.thing__item img{
+    padding-bottom: 4em;
+}
+.thing__item--heading{
+    text-align: center;
+    color: var(--gray);
+}
+
+.thing__item--heading p{
+    font-weight: 300;
+    line-height: 2em;
+    max-width: 300px;
+    margin: 0 auto;
+    padding-top: 1em;
 }
