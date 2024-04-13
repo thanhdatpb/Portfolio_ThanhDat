@@ -13,6 +13,8 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
     <header>
         <div class="container">
             <nav class="navbar">
@@ -22,10 +24,10 @@
                 </div>
                 <!-- link -->
                 <ul class="navbar__links">
-                    <li class="navbar__link"> <a href="#">Work</a></li>
-                    <li class="navbar__link"> <a href="#">About</a></li>
-                    <li class="navbar__link"> <a href="#">CV</a></li>
-                    <a href="#"><button class="navbar__btn">Contact</button></a>
+                    <li class="navbar__link"> <a href="#works">Work</a></li>
+                    <li class="navbar__link"> <a href="#things">About</a></li>
+                    <li class="navbar__link"> <a href="#works">CV</a></li>
+                    <a href="#footer"><button class="navbar__btn">Contact</button></a>
                 </ul>
                 <!-- menu button -->
                 <div class="navbar__icons">
@@ -41,7 +43,9 @@
     <section id="banner">
         <div class="container">
             <!-- img -->
-            <img src="./img/banner-img.png" alt="banner">
+            <div class="banner__img">
+                <img src="./img/banner-img.png" alt="Banner" />
+              </div>
             <!-- heading -->
             <div class="banner__heading">
                 <h1>Hello, I'm Thanh Dat</h1>
@@ -58,6 +62,14 @@
     <!-- things -->
     <section id="things">
         <div class="container">
+            <!-- Decoration -->
+            <div class="things__dec">
+                <img src="./img/things-dec-l.png" alt="Dec animation">
+            </div>
+            <!-- Decoration -->
+            <div class="things__dec">
+                <img src="./img/things-dec-r.png" alt="Dec animation">
+            </div>
             <!-- heading -->
             <h2>Thing I Do</h2>
             <!-- item 1 -->
@@ -96,6 +108,73 @@
 
         </div>
     </section>
+    <!-- Works -->
+    <section id="works">
+        <div class="container">
+            <!-- Decoration -->
+            <div class="works__dec">
+                <img src="img/work-dec.png" alt="Works Decoration">
+            </div>
+            <div class="works__dec">
+                <img src="img/work-dec.png" alt="Works Decoration">
+            </div>
+            <!-- heading -->
+            <h2>Recent Works</h2>
+            <!-- img -->
+            <div class="works__img">
+                <div class="works__img--single">
+                    <img src="img/work-1.png" alt="bag">
+                </div>
+                <div class="works__img--single">
+                    <img src="img/work-2.png" alt="plate">
+                </div>
+                <div class="works__img--single">
+                    <img src="img/work-3.png" alt="women">
+                </div>
+                <div class="works__img--single">
+                    <img src="img/work-4.png" alt="piggy bank">
+                </div>
+            </div>
+            <!-- Button -->
+            <div class="works__btn">
+                <a href="#"><button>View Works</button></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <!-- dec -->
+            <div class="footer__dec">
+                <img src="img/things-dec-l.png" alt="Footer dec">
+            </div>
+            <!-- img -->
+            <div class="footer__img">
+                <img src="img/footer-img.png" alt="Footer">
+            </div>
+            <!-- heading -->
+            <div class="footer__heading">
+                <h1>Ready to make something amazing?</h1>
+                <!-- contact -->
+                <div class="footer__contact">
+                    <a href="Tel: 012345">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p>0972*******</p>
+                    </a>
+                    <a href="mailtto:info@me.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>tthanhdat.pb@gmail.com</p>
+                    </a>
+                </div>
+                <div class="banner__socials">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
    
    
    <!-- font-awesome -->
